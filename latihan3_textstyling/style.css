@@ -1,0 +1,15 @@
+h1 {
+  font-size: 150px;
+  color: coral;
+  text-decoration: line-through;
+}
+p {
+  text-align: justify;
+  text-indent: 100px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+a {
+  text-decoration: none;
+  word-spacing: 15px;
+}
