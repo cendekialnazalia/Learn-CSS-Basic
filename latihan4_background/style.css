@@ -1,0 +1,9 @@
+body {
+  background-color: lightblue;
+  background-image: url(IMG_1666.PNG);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  /* contoh shorthand */
+  /* background: url(IMG_1666.PNG) lightblue no-repeat top center; */
+}
