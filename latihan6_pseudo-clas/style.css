@@ -1,0 +1,64 @@
+/* titik dua link akan bekerja jika ada element a */
+.hello:link {
+  color: orange;
+}
+
+.hello:hover {
+  color: green;
+  font-family: arial;
+  font-size: 20px;
+}
+
+/* ini ketika dia di klik */
+.hello:active {
+  font-style: italic;
+}
+
+/* ini ketika sudah dikunjungi */
+.hello:visited {
+  color: red;
+}
+
+/* -----------------Pseudo class yang kedua----------- */
+/* first chils */
+/* carikan li tapi yang merupakan anak pertama dan anya  */
+li:first-child a {
+  color: green;
+}
+
+li:last-child a {
+  color: pink;
+}
+
+/* kalo pake nth child harus ditambah parameter */
+/* bisa angka, bisa kelipatan, dll intinya matematika */
+li:nth-child(3n-2) a {
+  color: blue;
+}
+
+/* bisa juga gunakan event ex ganjil */
+li:nth-child(odd) a {
+  color: green;
+}
+
+li:nth-child(odd) a:hover {
+  color: red;
+}
+
+/* event genap */
+li:nth-child(even) a {
+  color: orange;
+}
+
+li:nth-child(even) a:hover {
+  color: yellow;
+}
+
+/* pseudoclass yang berhubungan dengan posisi elemen */
+p:first-of-type {
+  color: antiquewhite;
+}
+
+p:last-of-type {
+  color: aquamarine;
+}
