@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cara baca kodingan dengan seperator koma Jika menggunakan style yang sama di dua element yang berbeda */
+h1,
+h2 {
+  color: green;
+}
+
+/* Cara baca kodingan dengan seperator spasi dibawah
+Pilihkan tag a yang ada di dalam li, yang ada di dalam ul */
+ui li a {
+  color: orange;
+}
+
+ol li a {
+  color: red;
+}
+
+/* selector rules digunakan jika ingin memberikan css di element yang sama dalam tag yang sama*/
+/* bisa menggunakan class bisa menggunakan ID */
+/* ID menggunakan # */
+#p1 {
+  color: orange;
+}
+
+/* class menggunakan .*/
+.p2 {
+  color: red;
+}
+
+.cetak-tebal {
+  font-weight: bold;
+}
+
+/* css tolong carikan saya paragraf yang memiliki cetak tebal. */
+p.cetak-tebal {
+  font-size: 30;
+}

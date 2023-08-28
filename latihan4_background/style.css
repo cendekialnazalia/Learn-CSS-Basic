@@ -3,6 +3,10 @@ body {
   background-image: url(IMG_1666.PNG);
   background-repeat: no-repeat;
   background-position: bottom center;
+  background-color: antiquewhite;
+  background: white;   
+  background-image: nonei 
+   ;
 
   /* contoh shorthand */
   /* background: url(IMG_1666.PNG) lightblue no-repeat top center; */
